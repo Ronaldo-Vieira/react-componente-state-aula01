@@ -1,6 +1,8 @@
-import './App.css';
 import React from 'react';
+import Contador from './Contador';
 
-export default _ => {
-
+export default () => {
+  return (
+    <Contador />
+  )
 };
